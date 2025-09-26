@@ -24,12 +24,25 @@ The tests in `tests/test_proxy.py` verify:
 - `proxy.py` — **YOU IMPLEMENT THIS**. Follow the TODOs.
 - `tests/test_proxy.py` — pytest tests that validate your solution.
 
+## Setup
+
+```bash
+# 1) Create a virtual environment (optional)
+# Unix
+python -m venv .venv && source .venv/bin/activate
+
+# Windows: 
+python -m venv .venv
+.venv\Scripts\activate
+
+# 2) Install test dependency
+pip install -r requirements.txt
+```
+
+
 ## How to run
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 pytest -q
 ```
 
